@@ -1,11 +1,16 @@
 {
   "name": "keycode-extractor",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Self extracting your keycode and related keychar",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "readme": "./README.md",
+  "bin": {
+    "keycode-extractor": "index.js"
+  },
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wurikiji/keycode-extractor.git"
@@ -33,5 +38,10 @@
   "bugs": {
     "url": "https://github.com/wurikiji/keycode-extractor/issues"
   },
-  "homepage": "https://github.com/wurikiji/keycode-extractor#readme"
+  "homepage": "https://github.com/wurikiji/keycode-extractor#readme",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "iohook": "^0.2.0",
+    "robotjs": "^0.5.1"
+  }
 }
