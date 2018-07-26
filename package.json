@@ -1,0 +1,37 @@
+{
+  "name": "keycode-extractor",
+  "version": "1.0.0",
+  "description": "Self extracting your keycode and related keychar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurikiji/keycode-extractor.git"
+  },
+  "keywords": [
+    "keycode",
+    "keychar",
+    "global",
+    "keycode",
+    "os",
+    "keycode",
+    "cross-platform-keycode",
+    "mac-keycode",
+    "osx-keycode",
+    "win-keycode",
+    "linux-keycode",
+    "win32",
+    "osx",
+    "macos",
+    "linux",
+    "darwin"
+  ],
+  "author": "Gihwan Oh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wurikiji/keycode-extractor/issues"
+  },
+  "homepage": "https://github.com/wurikiji/keycode-extractor#readme"
+}
